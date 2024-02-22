@@ -16,7 +16,7 @@ function App() {
   const [emoji, setEmoji] = useState(null);
   const images = { thumbs_up: thumbs_up, victory: victory };
   const runHandpose = async () => {
-    console.log("Loading...");
+    // console.log("Loading...");
     const net = await handpose.load();
     console.log("Handpose model loaded");
     setInterval(() => {

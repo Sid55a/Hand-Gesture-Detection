@@ -6,9 +6,8 @@ import Webcam from "react-webcam";
 import { useRef, useState } from "react";
 import { drawHand } from "./utilities";
 import * as fp from "fingerpose";
-import victory from "./public/peace.webp";
-import thumbs_up from "./public/thumb.jpg";
-
+import thumbs_up from "./thumb.jpg";
+import victory from "./peace.webp";
 function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
